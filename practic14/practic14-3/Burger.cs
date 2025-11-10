@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practic14_3
+{
+    internal class Burger : Food
+    {
+        public override void Eat()
+        {
+            Console.WriteLine("Едим бургер!");
+        }
+    }
+}
